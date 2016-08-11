@@ -1,0 +1,11 @@
+{
+    "name": "Ac_K_Genius",
+    "displayname": "Genius",
+    "description": "www.genius.com - Plug-in by Ac_K",
+    "version": "1.01",
+    "site": "http://www.genius.com",
+    "module": "lyric.php",
+    "type": "lyric",
+    "class": "Ac_KGenius"
+}
+
