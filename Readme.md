@@ -17,7 +17,7 @@ How to Pack the AUM Module
 - **Windows** :
 > bsdtar zcf mymodule.aum INFO lyric.php
 
-Credits:
+Credits
 -------------
 - Frank Lai for source code of https://bitbucket.org/franklai/synologylyric/
 - https://global.download.synology.com/download/Document/DeveloperGuide/AS_Guide.pdf
