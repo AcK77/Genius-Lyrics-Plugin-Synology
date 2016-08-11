@@ -9,6 +9,14 @@ How to Install
 - Check the **Enabled** box in front of the added plugin.
 - You're down!
 
+How to Pack the AUM Module
+-------------
+- **Linux** :
+> tar zcf mymodule.aum INFO lyric.php
+
+- **Windows** :
+> bsdtar zcf mymodule.aum INFO lyric.php
+
 Credits:
 -------------
 - Frank Lai for source code of https://bitbucket.org/franklai/synologylyric/
