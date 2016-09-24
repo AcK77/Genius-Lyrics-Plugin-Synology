@@ -9,6 +9,10 @@ How to Install
 - Check the **Enabled** box in front of the added plugin.
 - You're down!
 
+Tips
+-------------
+- Featured Artist must be in the ID3 Tag "Title" field like "Feat. Artists" or "(feat. Artists)"
+
 How to Pack the AUM Module
 -------------
 - **Linux** :
@@ -16,6 +20,18 @@ How to Pack the AUM Module
 
 - **Windows** :
 > bsdtar zcf mymodule.aum INFO lyric.php
+
+ChangeLog
+-------------
+
+v1.01:
+- Initial Release
+
+v1.02:
+- Fix Genius <Lyrics> HTML Anchor
+- Change the way to find the good song lyrics link
+
+
 
 Credits
 -------------
