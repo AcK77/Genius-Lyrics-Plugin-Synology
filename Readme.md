@@ -11,7 +11,7 @@ How to Install
 
 Tips
 -------------
-- Featured Artist must be in the ID3 Tag "Title" field like "Feat. Artists" or "(feat. Artists)"
+- Featured Artist(s) must be in the ID3 Tag "Title" field like "Song Title Feat. Artists" or "Song Title (feat. Artists)"
 
 How to Pack the AUM Module
 -------------
