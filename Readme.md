@@ -24,10 +24,10 @@ How to Pack the AUM Module
 ChangeLog
 -------------
 
-v1.01:
+**1.01**
 - Initial Release
 
-v1.02:
+**1.02**
 - Fix Genius <Lyrics> HTML Anchor
 - Change the way to find the good song lyrics link
 
