@@ -41,8 +41,11 @@ class Ac_KGenius
 			$pattern = "'<span class=\"song_title\">(.*?)</span>'si";
 			$genius_title = utf8_decode ( html_entity_decode ( str_replace ( "&nbsp;", " ", htmlentities ( html_entity_decode ( $this->getFirstMatch ( $this->DOMinnerHTML ( $li ), $pattern ) ), null, 'UTF-8' ) ) ) );
 			
+			$pos = stripos ( $title, "feat." );
+			if ( $pos !== false ) $title = stristr ( $title, "feat.", true );
+			
 			// Song Featured Artist must in Title and be separated by "Feat. Artists" or "(feat. Artists)" in ID3Tag
-			similar_text ( $artist . ' ' . stristr ( $title, "feat.", true ), $genius_artist . ' ' . $genius_title, $percent );
+			similar_text ( $artist . ' ' . $title, $genius_artist . ' ' . $genius_title, $percent );
 			
 			if ( $percent > 75 )
 			{
