@@ -28,7 +28,7 @@ ChangeLog
 - Initial Release
 
 **1.02**
-- Fix Genius <Lyrics> HTML Anchor
+- Fix Genius < Lyrics > HTML Anchor
 - Change the way to find the good song lyrics link
 
 
