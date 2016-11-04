@@ -66,7 +66,7 @@ class Ac_KGenius
 		$content = $this->getContent ( $id );
 		if ( !$content ) return FALSE;
 
-		$begin = '<lyrics class="lyrics" remove-class-on-angular-load="lyrics" yields-anchorer="lyrics_anchorer = anchorer" canonical-lyrics-html="lyrics_data.body.html">';
+		$begin = '<lyrics';
 		$end   = '</lyrics>';
 
 		//Get lyrics
