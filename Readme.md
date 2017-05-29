@@ -31,8 +31,8 @@ ChangeLog
 - Fix Genius Lyrics HTML Anchor
 - Change the way to find the good song lyrics link
 
-**1.03**
-- Fix Genius Lyrics HTML Anchor
+**1.03/1.04**
+ - Fix Genius Lyrics HTML Anchor (Again...)
 
 Credits
 -------------
