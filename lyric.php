@@ -66,8 +66,8 @@ class Ac_KGenius
 		$content = $this->getContent ( $id );
 		if ( !$content ) return FALSE;
 
-		$begin = '<lyrics';
-		$end   = '</lyrics>';
+		$begin = '<div class="lyrics">';
+		$end   = '</div>';
 
 		//Get lyrics
 		$lyrics = $this->getSubString ( $content, $begin, $end );
